@@ -1,0 +1,81 @@
+body    {
+    background-color: orange;
+}
+
+.catch-em-all {
+     display: flex;
+     width: 25%;
+ }
+
+.img-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 1px #4e4e4e;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    height: auto;
+    width: 200px;
+}
+
+.poke-name{
+    text-transform: capitalize ;
+}
+
+.ability {
+    background: #e4e4e4;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 6px;
+}
+
+.abilities {
+    display: flex;
+   justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+.main-container {
+    flex: 1 0 0;
+    display: flex;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: transparent;
+    width: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+button:hover {
+    text-decoration: underline white;
+}
+
+
+
